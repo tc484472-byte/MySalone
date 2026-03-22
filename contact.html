@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Glow Studio - Contact</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display:wght@500&family=Work+Sans&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Spinner -->
+<div id="spinner" class="show position-fixed w-100 vh-100 top-50 start-50 translate-middle d-flex align-items-center justify-content-center bg-white">
+    <div class="spinner-grow text-primary"></div>
+</div>
+
+<!-- Navbar -->
+<div class="container-fluid bg-light sticky-top shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="index.html" class="navbar-brand px-4">
+            <h2 class="text-primary"><i class="bi bi-stars"></i> Glow Studio</h2>
+        </a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="service.html" class="nav-link">Services</a>
+                <a href="price.html" class="nav-link">Pricing</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!-- Hero -->
+<div class="container-fluid page-header py-5 mb-5">
+    <div class="container text-center py-5">
+        <h1 class="display-2 fw-bold mb-3">Contact Us</h1>
+        <p class="text-muted">We’d love to hear from you</p>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div class="container py-5">
+    <div class="row g-5">
+
+        <!-- Contact Info -->
+        <div class="col-lg-5">
+            <h5 class="text-primary font-dancing-script">Get In Touch</h5>
+            <h1 class="mb-4">Let’s Talk Beauty</h1>
+
+            <p class="mb-4 text-muted">
+                Have questions or want to book an appointment? Reach out to us anytime.
+            </p>
+
+            <div class="mb-4 d-flex align-items-center">
+                <div class="btn btn-primary btn-square me-3">
+                    <i class="fa fa-map-marker-alt text-dark"></i>
+                </div>
+                <div>
+                    <h6 class="mb-0">Location</h6>
+                    <small class="text-muted">Mumbai, India</small>
+                </div>
+            </div>
+
+            <div class="mb-4 d-flex align-items-center">
+                <div class="btn btn-primary btn-square me-3">
+                    <i class="fa fa-phone text-dark"></i>
+                </div>
+                <div>
+                    <h6 class="mb-0">Call Us</h6>
+                    <small class="text-muted">+91 9876543210</small>
+                </div>
+            </div>
+
+            <div class="mb-4 d-flex align-items-center">
+                <div class="btn btn-primary btn-square me-3">
+                    <i class="fa fa-envelope text-dark"></i>
+                </div>
+                <div>
+                    <h6 class="mb-0">Email</h6>
+                    <small class="text-muted">glowstudio@email.com</small>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="col-lg-7">
+            <div class="p-4 shadow rounded bg-light">
+
+                <form>
+                    <div class="row g-3">
+
+                        <div class="col-md-6">
+                            <input type="text" class="form-control border-0 p-3" placeholder="Your Name">
+                        </div>
+
+                        <div class="col-md-6">
+                            <input type="email" class="form-control border-0 p-3" placeholder="Your Email">
+                        </div>
+
+                        <div class="col-12">
+                            <input type="text" class="form-control border-0 p-3" placeholder="Subject">
+                        </div>
+
+                        <div class="col-12">
+                            <textarea class="form-control border-0 p-3" rows="5" placeholder="Message"></textarea>
+                        </div>
+
+                        <div class="col-12">
+                            <button class="btn btn-primary w-100 py-3">Send Message</button>
+                        </div>
+
+                    </div>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="container-fluid bg-dark text-white text-center py-4">
+    <p>© 2026 Glow Studio | All Rights Reserved</p>
+</div>
+
+<!-- JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<script>
+window.addEventListener("load", function () {
+    document.getElementById("spinner").classList.remove("show");
+});
+</script>
+
+</body>
+</html>

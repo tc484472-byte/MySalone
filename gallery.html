@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Glow Studio - Gallery</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display:wght@500&family=Work+Sans&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Spinner -->
+<div id="spinner" class="show position-fixed w-100 vh-100 top-50 start-50 translate-middle d-flex align-items-center justify-content-center bg-white">
+    <div class="spinner-grow text-primary"></div>
+</div>
+
+<!-- Navbar -->
+<div class="container-fluid bg-light sticky-top shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a href="index.html" class="navbar-brand px-4">
+            <h2 class="text-primary"><i class="bi bi-stars"></i> Glow Studio</h2>
+        </a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="service.html" class="nav-link">Services</a>
+                <a href="price.html" class="nav-link">Pricing</a>
+                <a href="gallery.html" class="nav-link active">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!-- Hero -->
+<div class="container-fluid page-header py-5 mb-5">
+    <div class="container text-center py-5">
+        <h1 class="display-2 fw-bold mb-3">Our Gallery</h1>
+        <p class="text-muted">A glimpse of our premium work</p>
+    </div>
+</div>
+
+<!-- Gallery -->
+<div class="container py-5">
+
+    <div class="text-center mb-5">
+        <h5 class="text-primary font-dancing-script">Gallery</h5>
+        <h1 class="fw-bold">Explore Our Work</h1>
+    </div>
+
+    <div class="row g-4">
+
+        <!-- Item -->
+        <div class="col-md-4">
+            <div class="gallery-box">
+                <img src="img/gallery-1.jpg">
+                <div class="overlay"><i class="fa fa-eye"></i></div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="gallery-box">
+                <img src="img/gallery-2.jpg">
+                <div class="overlay"><i class="fa fa-eye"></i></div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="gallery-box">
+                <img src="img/gallery-3.jpg">
+                <div class="overlay"><i class="fa fa-eye"></i></div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="gallery-box">
+                <img src="img/gallery-4.jpg">
+                <div class="overlay"><i class="fa fa-eye"></i></div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="gallery-box">
+                <img src="img/gallery-5.jpg">
+                <div class="overlay"><i class="fa fa-eye"></i></div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="gallery-box">
+                <img src="img/gallery-6.jpg">
+                <div class="overlay"><i class="fa fa-eye"></i></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="container-fluid bg-dark text-white text-center py-4">
+    <p>© 2026 Glow Studio | All Rights Reserved</p>
+</div>
+
+<!-- JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<script>
+window.addEventListener("load", function () {
+    document.getElementById("spinner").classList.remove("show");
+});
+</script>
+
+</body>
+</html>
